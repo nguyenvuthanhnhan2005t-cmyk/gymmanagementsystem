@@ -23,9 +23,9 @@ http://www.springframework.org/schema/mvc/spring-mvc.xsd">
     <!-- SQL Server DataSource --> 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource"> 
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" /> 
-        <property name="url" value="jdbc:mysql://localhost:3307/gymmanagementsystem" /> 
-        <property name="username" value="root" /> 
-        <property name="password" value="" /> 
+        <property name="url" value="jdbc:mysql://sql10.freesqldatabase.com:3306/sql10831891/gymmanagementsystem" /> 
+        <property name="username" value="sql10831891" /> 
+        <property name="password" value="Mb1qw8XE62" /> 
     </bean>     
 
 <!-- JdbcTemplate Bean -->
